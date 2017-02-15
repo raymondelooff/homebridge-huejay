@@ -1,0 +1,9 @@
+{
+  "name": "homebridge-huejay",
+  "version": "0.1",
+  "description": "Homebridge Plugin for Philips Hue accessories based on Huejay",
+  "main": "index.js",
+  "repository": "https://github.com/raymondelooff/homebridge-huejay",
+  "author": "Raymon de Looff <raydelooff@gmail.com>",
+  "license": "MIT"
+}
