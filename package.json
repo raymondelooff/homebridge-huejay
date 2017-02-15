@@ -17,10 +17,9 @@
   },
   "author": "Raymon de Looff <raydelooff@gmail.com>",
   "files": [
-    "index.js",
     "lib/"
   ],
-  "main": "index.js",
+  "main": "lib/HuePlatform.js",
   "dependencies": {
     "huejay": "^1.5.0"
   },
