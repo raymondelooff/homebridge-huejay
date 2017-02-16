@@ -16,9 +16,6 @@
     "url": "git://github.com/raymondelooff/homebridge-huejay.git"
   },
   "author": "Raymon de Looff <raydelooff@gmail.com>",
-  "files": [
-    "lib/"
-  ],
   "main": "lib/HuePlatform.js",
   "dependencies": {
     "huejay": "^1.5.0"
