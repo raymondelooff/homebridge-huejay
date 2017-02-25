@@ -20,14 +20,21 @@
   "dependencies": {
     "huejay": "^1.5.0"
   },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
+  "scripts": {
+    "test": "xo"
+  },
   "xo": {
-    "extends": "xo/esnext",
-    "env": [
-      "node"
-    ]
+    "esnext": true,
+    "rules": {
+      "unicorn/filename-case": ["error", {"case": "pascalCase"}]
+    },
+    "space": true
   }
 }
