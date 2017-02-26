@@ -13,7 +13,7 @@ module.exports = function (homebridge) {
   Characteristic = homebridge.hap.Characteristic;
   UUIDGen = homebridge.hap.uuid;
 
-  homebridge.registerPlatform(HuePlatform.pluginName, HuePlatform.platformName, Platform, true);
+  homebridge.registerPlatform(HuePlatform.pluginName, HuePlatform.platformName, Platform, false);
 };
 
 function Platform(log, config, api) {
