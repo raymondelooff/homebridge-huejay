@@ -16,7 +16,6 @@
     "url": "git://github.com/raymondelooff/homebridge-huejay.git"
   },
   "author": "Raymon de Looff <raydelooff@gmail.com>",
-  "main": "lib/HuePlatform.js",
   "dependencies": {
     "huejay": "^1.5.0"
   },
@@ -33,7 +32,16 @@
   "xo": {
     "esnext": true,
     "rules": {
-      "unicorn/filename-case": ["off"]
+      "unicorn/filename-case": [
+        "off"
+      ],
+      "import/no-dynamic-require": [
+        "off"
+      ],
+      "max-params": [
+        "warn",
+        8
+      ]
     },
     "space": true
   }
