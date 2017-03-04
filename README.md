@@ -1,6 +1,7 @@
 # Homebridge Huejay for Homebridge
 
 [![npm](https://img.shields.io/npm/v/homebridge-huejay.svg)](https://www.npmjs.com/package/homebridge-huejay)
+[![npm](https://img.shields.io/david/raymondelooff/homebridge-huejay.svg)](https://david-dm.org/raymondelooff/homebridge-huejay)
 [![npm](https://img.shields.io/npm/dt/homebridge-huejay.svg)](https://www.npmjs.com/package/homebridge-huejay)
 
 Homebridge Huejay is a Homebridge Plugin for Philips Hue accessories based on Huejay. At this moment, this plugin can expose Philips Hue sensors to Homebridge. Support for lights and other accessories will be implemented soon.
