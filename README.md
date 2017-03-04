@@ -26,8 +26,8 @@ Modify the `config.json` file of your Homebridge installation and add the follow
 ```json
 "platforms": [
     {
-        "platform" : "HuePlatform",
-        "name" : "Hue"
+        "platform": "HuePlatform",
+        "name": "Hue"
     }
 ]
 ```
@@ -49,8 +49,8 @@ You don't have to store the IP of your Bridge in the configuration file. Homebri
 ```json
 "platforms": [
     {
-        "platform" : "HuePlatform",
-        "name" : "Hue",
+        "platform": "HuePlatform",
+        "name": "Hue",
         "clients": [
             {
                 "id": "001011XXXX0XX0X0",
@@ -68,8 +68,8 @@ You may also pass advanced options to the Huejay clients. Read the [Huejay docum
 ```json
 "platforms": [
     {
-        "platform" : "HuePlatform",
-        "name" : "Hue",
+        "platform": "HuePlatform",
+        "name": "Hue",
         "clients": [
             {
                 "id": "001011XXXX0XX0X0",
