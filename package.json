@@ -9,7 +9,7 @@
     "homebridge",
     "homebridge-plugin"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": "https://github.com/raymondelooff/homebridge-huejay/issues",
   "repository": {
     "type": "git",
