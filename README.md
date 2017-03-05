@@ -83,6 +83,26 @@ You may also pass advanced options to the Huejay clients. Read the [Huejay docum
 ]
 ```
 
+### Ignoring accessories
+If you want to disable HomeKit support for a specific accessory you can add the unique ID of the accessory to the `ignoreAccessories` option in the configuration. If you don't know what the unique ID is of a specific accessory, you can look for the 'Serial Number' of the accessory you want to disable. Homebridge Huejay registers the unique ID of an accessory as the 'Serial Number' to HomeKit. You can find the 'Serial Number' at the detail view of the accessory you want to disable. Most of the time it looks like a MAC address.
+
+```json
+"platforms": [
+    {
+        "platform": "HuePlatform",
+        "name": "Hue",
+        "clients": [
+            {
+                "id": "001011XXXX0XX0X0",
+                "username": "RlRpseUAXPsMlnLyHXfNPIMt-60MlX06QB5VwpP6"
+            }
+        ],
+        "ignoreAccessories": [
+            "XX:XX:XX:XX:XX:XX:XX:XX-01-0001"
+        ]
+    }
+]
+```
 
 ## Issues
 If you have any issues with the extension, please let me know via the GitHub [issues section](https://github.com/raymondelooff/homebridge-huejay/issues). Provide as much information as possible, including the system log, so I can try to reproduce the problem. Turn Homebridge debugging on before posting your system log. Make sure you don't post any private information like API keys or secret keys.
