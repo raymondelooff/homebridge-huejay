@@ -1,4 +1,4 @@
-# Homebridge Huejay for Homebridge
+# Philips Hue for Homebridge
 
 [![npm](https://img.shields.io/npm/v/homebridge-huejay.svg)](https://www.npmjs.com/package/homebridge-huejay)
 [![npm](https://img.shields.io/david/raymondelooff/homebridge-huejay.svg)](https://david-dm.org/raymondelooff/homebridge-huejay)
