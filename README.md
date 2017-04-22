@@ -4,12 +4,11 @@
 [![npm](https://img.shields.io/david/raymondelooff/homebridge-huejay.svg)](https://david-dm.org/raymondelooff/homebridge-huejay)
 [![npm](https://img.shields.io/npm/dt/homebridge-huejay.svg)](https://www.npmjs.com/package/homebridge-huejay)
 
-Homebridge Huejay is a Homebridge Plugin for Philips Hue accessories based on Huejay. At this moment, this plugin can expose Philips Hue sensors to Homebridge. Support for lights and other accessories will be implemented soon.
+Homebridge Huejay is a Homebridge Plugin for Philips Hue accessories based on Huejay. This plugin will add HomeKit support for Hue accessories that don't have HomeKit support (yet), for example the Hue Motion Sensor.
 
 ## Features
 - Adds HomeKit support for accessories that don't have HomeKit support out-of-the-box, like the Hue Motion Sensor.
 - Adds HomeKit support for sensors that are not visible via the official Philips Hue App, like the ambient and temperature sensor in the Hue Motion Sensor.
-- Adds HomeKit support for accessories that are connected to a Bridge without HomeKit support.
 - Automatic detection of Bridges. Homebridge Huejay also supports multiple Bridges.
 - Accessory information is updated when HomeKit requests the value. The information is therefore always up-to-date.
 
