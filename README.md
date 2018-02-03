@@ -110,5 +110,5 @@ If you have any issues with the extension, please let me know via the GitHub [is
 Your help is more than welcome! If you own accessories that are not supported by Homebridge Huejay at this moment, feel free to create a pull request with the implementation for other accessories. Make sure to use the same code style as used for the existing code base. Thank you!
 
 ## License & Copyright
-Copyright (c) 2017 Raymon de Looff <raydelooff@gmail.com>.
+Copyright (c) 2018 Raymon de Looff <raydelooff@gmail.com>.
 This plugin is open-source software licensed under the GPLv3 license.
