@@ -17,7 +17,7 @@
   },
   "author": "Raymon de Looff <raydelooff@gmail.com>",
   "dependencies": {
-    "huejay": "^1.7.4"
+    "@raymondelooff/huejay": "^1.7.4-1"
   },
   "devDependencies": {
     "xo": "^0.18.2"
