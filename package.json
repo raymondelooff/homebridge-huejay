@@ -17,10 +17,10 @@
   },
   "author": "Raymon de Looff <raydelooff@gmail.com>",
   "dependencies": {
-    "@raymondelooff/huejay": "^1.7.4-1"
+    "huejay": "^1.8.0"
   },
   "devDependencies": {
-    "xo": "^0.18.2"
+    "xo": "^0.20.2"
   },
   "engines": {
     "node": ">=6.0.0",
