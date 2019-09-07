@@ -20,7 +20,7 @@
     "huejay": "^1.8.4"
   },
   "devDependencies": {
-    "eslint": "^6.0.1"
+    "eslint": "^6.3.0"
   },
   "engines": {
     "node": ">=6.0.0",
