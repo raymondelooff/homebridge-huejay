@@ -26,7 +26,6 @@
     "node": ">=6.0.0",
     "homebridge": ">=0.4.22"
   },
-  "preferGlobal": true,
   "scripts": {
     "test": "xo"
   }
