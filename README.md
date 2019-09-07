@@ -31,6 +31,21 @@ Modify the `config.json` file of your Homebridge installation and add the follow
 ]
 ```
 
+Optionally, you may enable or disable support for sensors and/or lights. This plugin also supports a 'generic' mode for both sensors and lights. With the generic mode enabled, this plugin will register all lights and/or sensors with generic capabilities (like on/off toggles and brightness in the case of lights, if supported).
+
+```json
+"platforms": [
+    {
+        "platform": "HuePlatform",
+        "name": "Hue",
+        "enableLights": true,
+        "enableGenericLightSupport": false,
+        "enableSensors": true,
+        "enableGenericSensorSupport": false
+    }
+]
+```
+
 ### Automatic Discovery of Bridges
 Homebridge Huejay will try to discover Bridges when no Bridges are specified in the configuration. Homebridge Huejay will ask for authentication after every restart of Homebridge if no credentials are listed in your `config.json`. When you press the link button of your Bridge, Homebridge Huejay will connect to your Bridge and log the credentials of the created user. It's recommended to store the credentials in your `config.json` file to let Homebridge Huejay use that credentials when Homebridge is restarted.
 
