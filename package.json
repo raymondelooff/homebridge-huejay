@@ -1,6 +1,6 @@
 {
   "name": "homebridge-huejay",
-  "version": "1.4.5",
+  "version": "1.5.0",
   "description": "Homebridge Plugin for Philips Hue accessories based on Huejay",
   "keywords": [
     "philips",
