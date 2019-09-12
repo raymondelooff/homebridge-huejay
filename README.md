@@ -39,9 +39,9 @@ Optionally, you may enable or disable support for sensors and/or lights. This pl
         "platform": "HuePlatform",
         "name": "Hue",
         "enableLights": true,
-        "enableGenericLightSupport": false,
+        "enableGenericLights": false,
         "enableSensors": true,
-        "enableGenericSensorSupport": false
+        "enableGenericSensors": false
     }
 ]
 ```
